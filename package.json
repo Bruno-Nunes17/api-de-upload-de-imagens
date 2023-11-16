@@ -7,10 +7,10 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "lint": "eslint --fix src",
     "test": "jest",
-    "dev" : "nodemon server.js"
+    "dev" : "nodemon index.js"
   },
   "keywords": [],
   "author": "",
