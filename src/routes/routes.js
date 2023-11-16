@@ -5,7 +5,7 @@ const route = express.Router();
 
 route.use("/photos", photosRouter);
 route.get("/", (req, res) => {
-  res.json({ message: "API online" });
+  res.json({ message: "API online 😎" });
 });
 
 module.exports = route;
