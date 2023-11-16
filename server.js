@@ -33,7 +33,7 @@ app.use(
 
 app.use(routes);
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 app.on("ready", () => {
   app.listen(port, () => {
     console.log(`Acessar http://localhost:${port}`);
